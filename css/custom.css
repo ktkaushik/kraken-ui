@@ -1,0 +1,514 @@
+/* 
+    Document   : custom
+    Created on : Aug 31, 2015, 9:38:51 PM
+    Author     : Amit Ghasghase <amitghasghase at gmail.com>
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+a .Mouseover { 
+    display: none;
+}
+
+a:hover .Mouseout { 
+    display: none; 
+}
+
+a:hover .Mouseover { 
+    display: inline; 
+    background-color: #555555;
+    color: #E9E9E9;
+    border: solid 5px #555555;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+a .Mouseout {
+    background-color: #555555;
+    color: #E9E9E9;
+    border: solid 5px #555555;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;     
+}
+
+a.learnmore {
+    font-family: 'Source Sans Pro'; 
+    font-weight: 400; 
+    font-size: 13px; 
+    line-height: 40px; 
+    color: #999999;
+    text-decoration: none;    
+}
+
+a.learnmore:hover {
+    font-family: 'Source Sans Pro'; 
+    font-weight: 400; 
+    font-size: 13px; 
+    line-height: 40px; 
+    color: #4490DF;    
+    text-decoration: none;
+}
+
+.learnmoretext {
+    font-family: 'Source Sans Pro'; 
+    font-weight: 300; 
+    font-size: 12px; 
+    line-height: 24px; 
+    color: #999999; 
+    margin-top: 50px;
+}
+
+.maintext {
+    font-family: 'Source Sans Pro'; 
+    font-weight: 300; 
+    font-size: 36px; 
+    line-height: 50px; 
+    color: #666666;
+}
+
+.medtext {
+    font-family: 'Source Sans Pro'; 
+    font-weight: 300; 
+    font-size: 24px; 
+    line-height: 30px; 
+    color: #999999;
+}
+
+.subtext {
+    font-family: 'Source Sans Pro'; 
+    font-weight: 300; 
+    font-size: 16px; 
+    line-height: 34px; 
+    color: #999999;
+}
+
+.mobilemaintext {
+    font-family: 'Source Sans Pro'; 
+    font-weight: 300; 
+    font-size: 28px; 
+    line-height: 40px; 
+    color: #666666;
+}
+
+.mobilemedtext {
+    font-family: 'Source Sans Pro'; 
+    font-weight: 300; 
+    font-size: 20px; 
+    line-height: 30px; 
+    color: #666666;
+}
+
+.mobilesubtext {
+    font-family: 'Source Sans Pro'; 
+    font-weight: 300; 
+    font-size: 14px; 
+    line-height: 30px; 
+    color: #999999;
+}
+
+.modalheading {
+    font-family: 'Source Sans Pro'; 
+    font-weight: 300; 
+    font-size: 26px; 
+    line-height: 50px; 
+    color: #666666;
+}
+
+li > a.menubtn {
+    font-family: 'Source Sans Pro'; 
+    font-weight: 300; 
+    font-size: 14px; 
+    line-height: 40px; 
+    color: #999999;
+    text-decoration: none;
+    padding: 1px 16px;
+    display: block;
+}
+
+li > a.menubtn {
+    font-family: 'Source Sans Pro'; 
+    font-weight: 300; 
+    font-size: 14px; 
+    line-height: 40px; 
+    color: #999999;
+    text-decoration: none;
+    padding: 1px 16px;
+    display: block;
+}
+
+li > a.signupbtn {
+    font-family: 'Source Sans Pro'; 
+    font-weight: 400; 
+    font-size: 13px; 
+    line-height: 30px;
+    height: 30px;
+    color: #4490DF;
+    text-decoration: none;
+    padding: 1px 16px;
+    border: 1px solid #4490DF;
+    border-radius: 4px;
+    display: block;
+    margin-top: 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;    
+}
+
+li > a.signupbtn:hover, li > a.signupbtn:focus {
+    font-family: 'Source Sans Pro'; 
+    font-weight: 400; 
+    font-size: 13px; 
+    line-height: 30px; 
+    height: 30px;    
+    color: #ffffff;
+    background-color: #4490DF;
+    text-decoration: none;
+    padding: 1px 16px;
+    border: 1px solid #4490DF;
+    border-radius: 4px;
+    display: block;    
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;    
+}
+
+.maincta {
+    font-family: 'Source Sans Pro'; 
+    font-weight: 400; 
+    font-size: 12px; 
+    line-height: 40px; 
+    color: #ffffff; 
+    background-color: #4490DF;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;    
+}
+
+.maincta:hover, .maincta:focus {
+    font-family: 'Source Sans Pro'; 
+    font-weight: 400; 
+    font-size: 12px; 
+    line-height: 40px; 
+    color: #4490DF;;    
+    background-color: #ffffff;
+    border: 1px solid #4490DF;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;    
+}
+
+.maincta:active, .maincta.uk-active {
+    font-family: 'Source Sans Pro'; 
+    font-weight: 400; 
+    font-size: 12px; 
+    line-height: 40px; 
+    color: #4490DF;;    
+    background-color: #ffffff;
+    border: 1px solid #4490DF;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;    
+}
+
+.signupmodalheader {
+  margin-bottom: 15px;
+  margin: -20px -20px 15px -20px;
+  padding: 20px;
+  border-radius: 4px 4px 0 0;
+  background: #ffffff;    
+}
+
+.signupmodalcontent {
+    padding: 0px 20px 20px 20px;
+}
+
+input:focus{
+    outline: 0;
+}
+
+*:focus {
+    outline: 0;
+}
+
+.signupmodalfirstname {
+    width:49%; 
+    float: left; 
+    border: 1px solid #9cbad6; 
+    border-radius: 4px; 
+    font-family: 'Source Sans Pro'; 
+    font-weight: 300; 
+    font-size: 13px; 
+    line-height: 16px;
+}
+
+.signupmodallastname {
+    width:49%; 
+    float: right; 
+    border: 1px solid #9cbad6; 
+    border-radius: 4px; 
+    font-family: 'Source Sans Pro'; 
+    font-weight: 300; 
+    font-size: 13px; 
+    line-height: 16px;
+}
+
+.signupmodalemail {
+    width:100%; 
+    border: 1px solid #9cbad6; 
+    border-radius: 4px; 
+    font-family: 'Source Sans Pro'; 
+    font-weight: 300; 
+    font-size: 13px; 
+    line-height: 16px;
+}
+
+.navbarclean {
+    border-radius: 0px; 
+    background-color: #FFFFFF; 
+    background-image: none; 
+    border: none;
+}
+
+.footerlink {
+    color: #888888;
+    text-decoration: none;
+    font-family: 'Source Sans Pro'; 
+    font-weight: 300; 
+    font-size: 11px; 
+    line-height: 16px;    
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;      
+}
+
+.footerlink:hover, .footerlink:active {
+    color: #4490DF;
+    text-decoration: none;
+    font-family: 'Source Sans Pro'; 
+    font-weight: 300; 
+    font-size: 11px; 
+    line-height: 16px;    
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;      
+}
+
+.footertext {
+    color: #888888;
+    text-decoration: none;
+    font-family: 'Source Sans Pro'; 
+    font-weight: 300; 
+    font-size: 11px; 
+    line-height: 16px;    
+    padding: 10px 0px;
+}
+
+.footerborder {
+    border-top: 1px solid #888888;
+}
+
+.sectionbgcolor {
+    background-color: #FBFBFB;
+}
+
+.sectionpadding {
+    padding: 50px 0px;
+}
+
+.imgheight350 {
+    max-height: 350px;
+    width: auto;
+}
+
+.imgheight300 {
+    max-height: 300px;
+    width: auto;
+}
+
+.padding8020 {
+    padding: 80px 20px;
+}
+
+.padding6020 {
+    padding: 60px 20px;
+}
+
+.padding80 {
+    padding: 80px;
+}
+
+.padding2000 {
+    padding: 20px 0px;
+}
+
+.padding40120 {
+    padding: 40px 120px;
+}
+
+.padding6000 {
+    padding: 60px 0px;
+}
+
+.padding3000 {
+    padding: 30px 0px;
+}
+
+.logoheight {
+    height: 30px;
+}
+
+.txtareaheight {
+    height: 200px !important;
+    resize: none;
+}
+
+.margintop150 {
+    margin-top: 150px !important;
+}
+
+.margintop50 {
+    margin-top: 50px !important;
+}
+
+.margintop30 {
+    margin-top: 30px !important;
+}
+
+a.responsivemenu {
+    font-family: 'Source Sans Pro'; 
+    font-weight: 300; 
+    font-size: 14px; 
+    line-height: 30px; 
+    color: #4490DF;
+    display: block;
+}
+
+a.responsivemenu:active, a.responsivemenu:focus {
+    font-family: 'Source Sans Pro'; 
+    font-weight: 300; 
+    font-size: 14px; 
+    line-height: 30px; 
+    color: #ffffff;
+    background-color: #4490DF;
+    display: block;
+}
+
+.confmessage {
+    font-size: 14px; 
+    line-height: 28px;
+}
+
+.responsivemenu {
+    padding: 10px; 
+/*    border-bottom: 1px solid #cccccc;*/
+}
+
+.menuborderbottom {
+    border-bottom: 1px solid #cccccc;
+}
+
+.mobilemenu {
+    padding: 10px; 
+    border-bottom: 1px solid #cccccc; 
+    margin-bottom: 0px; 
+    height: 30px;
+}
+
+.uk-nav-navbar > li > a:hover,
+.uk-nav-navbar > li > a:focus {
+  background: #1B2024;    /* #00a8e6  #669AFD*/
+  color: #ffffff;
+  /* 2 */  
+  outline: none;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+/*
+ * Hover
+ * 1. Apply hover style also to focus state
+ * 2. Also apply if dropdown is opened
+ * 3. Remove default focus style
+ */
+.uk-navbar-nav > li:hover > a,
+.uk-navbar-nav > li > a:focus,
+.uk-navbar-nav > li.uk-open > a {
+/*  background-color: #fafafa;*/
+/*  color: #444444;
+   3 
+  outline: none;
+  position: relative;
+  z-index: 1;*/
+/*  border-left-color: rgba(0, 0, 0, 0.1);
+  border-right-color: rgba(0, 0, 0, 0.1);
+  border-top-color: rgba(0, 0, 0, 0.1);*/
+
+    font-family: 'Source Sans Pro'; 
+    font-weight: 400; 
+    font-size: 13px; 
+    line-height: 40px; 
+    color: #666666; 
+    text-decoration: none;
+    padding: 1px 16px;    
+}
+
+/* Sub-object: `uk-modal-dialog`
+ ========================================================================== */
+/*
+ * 1. Create position context for caption, spinner and close button
+ * 2. Set box sizing
+ * 3. Set style
+ * 4. Slide-in transition
+ */
+.fullwidthmodal {
+  /* 1 */
+  position: absolute;
+  /* 2 */
+/*  -moz-box-sizing: border-box;
+  box-sizing: border-box;*/
+/*  margin: 150px auto;*/
+  padding: 20px;
+  height: 400px;
+  width: 100%;
+  max-width: 100%;
+  /*max-width: calc(100% - 20px);*/
+  /* 3 */
+  background: #ffffff;
+  /* 4 */
+  opacity: 0;
+  -webkit-transform: translateY(-100px);
+  transform: translateY(-100px);
+  -webkit-transition: opacity 0.3s linear, -webkit-transform 0.3s ease-out;
+  transition: opacity 0.3s linear, transform 0.3s ease-out;
+  /*border-radius: 4px;*/
+  box-shadow: none;
+}
+
+.nice-select .list {
+    padding-left: 5px;
+}
